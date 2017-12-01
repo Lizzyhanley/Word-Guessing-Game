@@ -19,9 +19,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-let wordBank = []
-let randomIndex = Int(arc4random_uniform(UInt32(wordBank.count)))
-let answer = wordBank[randomIndex]
     
 }
 
